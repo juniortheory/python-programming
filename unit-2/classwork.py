@@ -25,12 +25,12 @@ classmates.pop(-1)
 #print all elements in the list
 for name in classmates:
     print(name)
-'''
+
 #search item in the list
 for name in classmates:
     if name == 'Maham':
         print('Maham found in list')
-'''
+
 
 if 'Maham' in classmates:
     print('Found Maham in the List!!')
@@ -48,3 +48,7 @@ for x in range(len(surname)-1, -1, -1):
 #shortest way to reverse order the list
 print(surname[::-1])
 
+
+
+
+    
