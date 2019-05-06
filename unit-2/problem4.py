@@ -1,3 +1,4 @@
+'''
 #problem 4
 a = str(input('What caculation would you like to do? Add, Subtract, Multiply or Divide: '))
 if 'Add' == a:
@@ -20,3 +21,18 @@ elif 'Divide' == a:
     b = int(input('What number would you like to Divide?: '))
     c = int(input('What other number would you like to Divide?: '))
     print('Your total is:', (b / c))
+'''
+#teacher
+op = input('What calculations would you like to do? ')
+num1 = int(input('Enter first number:  '))
+num2 = int(input('Enter second number:'))
+
+if op == 'add':
+    res = 'Your result is {}. Calc you later!'.format(num1 + num2)
+
+print(res)
+
+if op == 'add':
+    ans = num1 + num2
+
+print(f'Your result is {ans}. Calc you later!')
